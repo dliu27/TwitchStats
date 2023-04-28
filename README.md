@@ -2,14 +2,14 @@
 
 # Profile Page:
 ![image](https://user-images.githubusercontent.com/48995019/235028765-388ec821-2f83-4464-b299-4bbc6b10cfc6.png)
-![image](https://user-images.githubusercontent.com/48995019/235028805-0f2561a8-88ce-4dda-a57d-9e418a613b8d.png)
-![image](https://user-images.githubusercontent.com/48995019/235028867-17122bd4-23b8-4673-8211-d2fd32460c51.png)
-![image](https://user-images.githubusercontent.com/48995019/235028890-c02d32ae-d4de-4f92-8569-eb6338057631.png)
+![image](https://user-images.githubusercontent.com/48995019/235030269-ad393813-b436-4a92-8346-4631ecb95f04.png)
+![image](https://user-images.githubusercontent.com/48995019/235029553-098eab09-ed40-45eb-b744-68eb19d76ef5.png)
+![image](https://user-images.githubusercontent.com/48995019/235030161-432aa40e-8bdd-42cd-bf0e-aedd6abea260.png)
 
 # Home Page:
  
-![image](https://user-images.githubusercontent.com/48995019/235028922-50445032-1a0c-4a42-9d93-15a1f997ac97.png)
-![image](https://user-images.githubusercontent.com/48995019/235028946-bb4a3d13-68d6-49ac-9b7b-df02ae369ecf.png)
+![image](https://user-images.githubusercontent.com/48995019/235030315-13f46c2f-0e93-4ac8-8cb9-2024a3640ace.png)
+![image](https://user-images.githubusercontent.com/48995019/235030345-5eea99bc-a466-4a9d-a8ac-5d01a5f0c72f.png)
 
 Twitch API SPA project written in Vue 3 + TailwindCSS in Vite. I finished this project in a week without any experience in Vue 3 or TailwindCSS. 
 In the end, I learned a lot about frontend/backend development and production-code concepts. 
