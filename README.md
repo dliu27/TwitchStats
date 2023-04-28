@@ -2,6 +2,8 @@
 
 # Profile Page:
 ![image](https://user-images.githubusercontent.com/48995019/235028765-388ec821-2f83-4464-b299-4bbc6b10cfc6.png)
+![image](https://user-images.githubusercontent.com/48995019/235032951-faac5b18-21aa-410c-a961-1d9e861fb888.png)
+
 ![image](https://user-images.githubusercontent.com/48995019/235030269-ad393813-b436-4a92-8346-4631ecb95f04.png)
 ![image](https://user-images.githubusercontent.com/48995019/235029553-098eab09-ed40-45eb-b744-68eb19d76ef5.png)
 ![image](https://user-images.githubusercontent.com/48995019/235030161-432aa40e-8bdd-42cd-bf0e-aedd6abea260.png)
