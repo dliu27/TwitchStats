@@ -272,7 +272,7 @@
           <div class="w-full md:w-1/6">
             <p class="text-sm text-gray-400 mb-1">Language:</p>
             <p v-if="!channelError" class="text-lg font-semibold">
-              {{ ISO6391.getName(channel.broadcaster_language) }}
+              {{ ISO6391.getName(channel[0].broadcaster_language) }}
             </p>
             <p v-else class="text-lg font-semibold text-red-500">
               {{ channelError }}
@@ -291,9 +291,9 @@
           <div class="w-full md:w-1/6">
             <p class="text-sm text-gray-400 mb-1">Channel Tags:</p>
             <div class="flex flex-wrap">
-              <template v-if="channel.tags">
+              <template v-if="channel && channel[0].tags.length > 0">
                 <a
-                  v-for="tag in channel.tags"
+                  v-for="tag in channel[0].tags"
                   :key="tag"
                   class="inline-block py-1 px-2 rounded-full text-sm text-black bg-gray-400 hover:bg-white hover:text-black mr-2 mt-2"
                 >
