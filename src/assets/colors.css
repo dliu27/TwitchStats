@@ -1,0 +1,12 @@
+:root {
+  --avg-viewers-bg-from: #ff715b;
+  --avg-viewers-bg-to: #5634bd;
+  --peak-viewers-bg-from: #4263c6;
+  --peak-viewers-bg-to: #6ac897;
+  --avg-stream-duration-bg-from: #eb995f;
+  --avg-stream-duration-bg-to: #ef7b62;
+  --total-followers-bg-from: #405dc7;
+  --total-followers-bg-to: #803fe5;
+  --twitch-checkmark: #bf94ff;
+  --background: black;
+}
