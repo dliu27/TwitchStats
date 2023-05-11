@@ -1,20 +1,10 @@
 # twitch-api-spa-project ![favicon-32x32](https://user-images.githubusercontent.com/48995019/235028996-1f739050-b8a9-4618-ad5d-4f3ed03ba6dc.png)
 
-# Profile Page:
-![image](https://user-images.githubusercontent.com/48995019/235028765-388ec821-2f83-4464-b299-4bbc6b10cfc6.png)
-![image](https://user-images.githubusercontent.com/48995019/235032951-faac5b18-21aa-410c-a961-1d9e861fb888.png)
+# Demo: [Netlify](https://twitch-api-spa.netlify.app/) (Try 'tarik')
 
-![image](https://user-images.githubusercontent.com/48995019/235030269-ad393813-b436-4a92-8346-4631ecb95f04.png)
-![image](https://user-images.githubusercontent.com/48995019/235029553-098eab09-ed40-45eb-b744-68eb19d76ef5.png)
-![image](https://user-images.githubusercontent.com/48995019/235030161-432aa40e-8bdd-42cd-bf0e-aedd6abea260.png)
-
-# Home Page:
- 
-![image](https://user-images.githubusercontent.com/48995019/235030315-13f46c2f-0e93-4ac8-8cb9-2024a3640ace.png)
-![image](https://user-images.githubusercontent.com/48995019/235030345-5eea99bc-a466-4a9d-a8ac-5d01a5f0c72f.png)
 
 Twitch API SPA project written in Vue 3 + TailwindCSS in Vite. I finished this project in a week without any experience in Vue 3 or TailwindCSS. 
-In the end, I learned a lot about frontend/backend development and production-code concepts. 
+In the end, I learned a lot about full-stack development and production-code concepts. 
 
 ## Features
 * Home Page: Component to search Twitch users 
@@ -33,6 +23,20 @@ In the end, I learned a lot about frontend/backend development and production-co
 - Formatting of numbers to human-friendly format (2 hours ago, 250k views, etc)
 - Hover states and clickable links for everything
 
+# Screens
+
+## Profile Page:
+![image](https://user-images.githubusercontent.com/48995019/235028765-388ec821-2f83-4464-b299-4bbc6b10cfc6.png)
+![image](https://user-images.githubusercontent.com/48995019/235032951-faac5b18-21aa-410c-a961-1d9e861fb888.png)
+
+![image](https://user-images.githubusercontent.com/48995019/235030269-ad393813-b436-4a92-8346-4631ecb95f04.png)
+![image](https://user-images.githubusercontent.com/48995019/235029553-098eab09-ed40-45eb-b744-68eb19d76ef5.png)
+![image](https://user-images.githubusercontent.com/48995019/235030161-432aa40e-8bdd-42cd-bf0e-aedd6abea260.png)
+
+## Home Page:
+ 
+![image](https://user-images.githubusercontent.com/48995019/235030315-13f46c2f-0e93-4ac8-8cb9-2024a3640ace.png)
+![image](https://user-images.githubusercontent.com/48995019/235030345-5eea99bc-a466-4a9d-a8ac-5d01a5f0c72f.png)
 
 ## Recommended IDE Setup
 
