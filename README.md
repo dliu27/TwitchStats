@@ -1,6 +1,6 @@
 # Twitch Creator Searcher SPA ![favicon-32x32](https://user-images.githubusercontent.com/48995019/235028996-1f739050-b8a9-4618-ad5d-4f3ed03ba6dc.png)
 
-## Demo: [Netlify](https://twitch-api-spa.netlify.app/) (Try 'tarik'. Open console to see fetched/cached data usage)
+## Demo: [Netlify](https://twitch-api-spa.netlify.app/) (Try 'tarik'. Open console to see fetched/cached data usage. Delete 'vuex' localStorage key to delete cache.)
 
 Twitch API SPA project written in Vue 3 + TailwindCSS in Vite. I finished this project in a week without any experience in Vue 3 or TailwindCSS. 
 In the end, I learned a lot about full-stack development and production-code concepts. 
