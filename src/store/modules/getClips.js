@@ -4,10 +4,9 @@
 
 import axios from "axios";
 
-import shouldUseCache from "../../helpers/shouldUseCache.js";
+import { shouldUseCache } from "../../helpers/shouldUseCache.js";
 
 const CLIENT_ID = import.meta.env.VITE_APP_TWITCH_APP_CLIENT_ID;
-const ACCESS_TOKEN = import.meta.env.VITE_APP_TWITCH_APP_ACCESS_TOKEN;
 
 const getClips = {
   namespaced: true,
@@ -31,13 +30,18 @@ const getClips = {
   },
 
   actions: {
-    async fetchClips({ commit, getters }, id, started_at, ended_at) {
+    async fetchClips(
+      { commit, getters, rootGetters },
+      id,
+      started_at,
+      ended_at
+    ) {
       const cachedData = getters.getClipsById(id);
+      const ACCESS_TOKEN = rootGetters["getTokenModule/getToken"]().token;
 
       // Use cache, and return
       if (shouldUseCache(cachedData)) {
         console.log("CLIPS: CACHED DATA USED");
-        console.log(cachedData);
         return;
       }
       console.log("CLIPS: FETCHING");
