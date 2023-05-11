@@ -706,7 +706,7 @@ const twoMonthsAgo = new Date(
 ).toISOString();
 const now = new Date(Date.now()).toISOString();
 
-const token = await getToken();
+await getToken();
 
 // start fetching async data
 user.value = await getUser();
