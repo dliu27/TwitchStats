@@ -8,4 +8,17 @@ const shouldUseCache = function (cachedData) {
   return false;
 };
 
-export default shouldUseCache;
+// function for determining if cached data, with expiration in seconds is valid
+const shouldUseCacheSeconds = function (cachedData) {
+  const expiresInMilliseconds = cachedData.expiresIn * 1000;
+
+  if (
+    cachedData.expiresIn &&
+    cachedData.lastUpdated + expiresInMilliseconds > Date.now()
+  ) {
+    return true;
+  }
+  return false;
+};
+
+export { shouldUseCache, shouldUseCacheSeconds };
