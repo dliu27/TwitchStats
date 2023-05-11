@@ -690,11 +690,23 @@ const getGames = async (gameIds) => {
   }
 };
 
+// queries Vuex store/Twitch API for Access Token
+const getToken = async function () {
+  try {
+    await store.dispatch("getTokenModule/fetchToken");
+    return store.getters["getTokenModule/getToken"]();
+  } catch (err) {
+    console.error(err);
+  }
+};
+
 // constants for date range to be used for clips
 const twoMonthsAgo = new Date(
   Date.now() - 60 * 60 * 24 * 30 * 3 * 1000
 ).toISOString();
 const now = new Date(Date.now()).toISOString();
+
+const token = await getToken();
 
 // start fetching async data
 user.value = await getUser();
