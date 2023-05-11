@@ -54,7 +54,6 @@ const getToken = {
         );
 
         const { access_token, expires_in } = result.data;
-        console.log(result.data);
         commit("SET_TOKEN", { token: access_token, expiresIn: expires_in });
 
         return access_token;
