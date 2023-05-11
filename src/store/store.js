@@ -12,6 +12,7 @@ import getStream from "./modules/getStream";
 import getChannel from "./modules/getChannel";
 import getClips from "./modules/getClips";
 import getGames from "./modules/getGames";
+import getToken from "./modules/getToken";
 
 const modules = {
   searchUsersModule: searchChannels,
@@ -22,6 +23,7 @@ const modules = {
   getChannelModule: getChannel,
   getClipsModule: getClips,
   getGamesModule: getGames,
+  getTokenModule: getToken,
 };
 
 const moduleNames = Object.keys(modules);
