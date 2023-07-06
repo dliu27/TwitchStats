@@ -2,8 +2,16 @@
 
 ## Demo: [Netlify](https://twitch-api-spa.netlify.app/) (Try 'tarik'. Open console to see fetched/cached data usage. Delete 'vuex' localStorage key to delete cache.)
 
-Twitch API SPA project written in Vue 3 + TailwindCSS in Vite. I finished this project in a week without any experience in Vue 3 or TailwindCSS. 
+Minimalistic SPA project written in Vue 3 + TailwindCSS using the Twitch API. I finished this project in a week without any experience in Vue 3 or TailwindCSS. 
 In the end, I learned a lot about full-stack development and production-code concepts. 
+
+## Technical Features
+- Caching all Twitch API data fetched using Vuex (Vue state management library), and vuex-persist to leverage localStorage to persist this data
+- Cached data expires in 15 minutes and is refreshed accordingly
+- Skeleton Loading components with animation to show while data is being loaded in
+- Debouncing of search bar input
+- Formatting of numbers to human-friendly format (2 hours ago, 250k views, etc)
+- Hover states and clickable links for everything
 
 ## Features
 * Home Page: Component to search Twitch users 
@@ -13,14 +21,6 @@ In the end, I learned a lot about full-stack development and production-code con
     * About Me (twitch broadcaster status like partner, whether channel is mature, language, last online, recent games streamed, tags
     * Top Recent Clips (10 most viewed clips in the past 2 months)
     * Recent VODs (10 recent vods)
-
-## Technical Features
-- Caching all Twitch API data fetched using Vuex (Vue state management library), and vuex-persist to leverage localStorage to persist this data
-- Cached data expires in 15 minutes and is refreshed accordingly
-- Skeleton Loading components with animation to show while data is being loaded in
-- Debouncing of search bar input
-- Formatting of numbers to human-friendly format (2 hours ago, 250k views, etc)
-- Hover states and clickable links for everything
 
 # Screens
 
