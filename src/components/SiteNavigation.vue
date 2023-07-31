@@ -10,7 +10,7 @@
       <RouterLink :to="{ name: 'home' }">
         <div class="flex items-center gap-3">
           <img src="/android-chrome-192x192.png" class="h-12 w-12" />
-          <p class="text-2xl">Twitch Creator Searcher</p>
+          <p class="text-2xl">Twitch Analytics SPA</p>
         </div>
       </RouterLink>
     </nav>
