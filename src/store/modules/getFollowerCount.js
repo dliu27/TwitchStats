@@ -44,14 +44,14 @@ const getFollowerCount = {
       // Otherwise make an API call
       try {
         const result = await axios.get(
-          `https://api.twitch.tv/helix/users/follows`,
+          `https://api.twitch.tv/helix/channels/followers`,
           {
             headers: {
               "Client-ID": `${CLIENT_ID}`,
               Authorization: `Bearer ${ACCESS_TOKEN}`,
             },
             params: {
-              to_id: id,
+              broadcaster_id: id,
             },
           }
         );
