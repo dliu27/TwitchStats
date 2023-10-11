@@ -3,7 +3,8 @@
 ## Demo: [Netlify](https://twich-analytics-spa.netlify.app/) (Try 'tarik'. Open console to see fetched/cached data usage. Delete 'vuex' localStorage key to delete cache.)
 
 Minimalistic SPA project written in Vue 3 + TailwindCSS using the Twitch API. I finished this project in a week without any experience in Vue 3 or TailwindCSS. 
-In the end, I learned a lot about full-stack development and production-code concepts. 
+
+Story: I wanted to learn Vue + TailwindCSS and production concepts like skeleton components, caching in a store, and just make a nice-looking application along with my interest in Twitch.
 
 ## Technical Features
 - Caching all Twitch API data fetched using Vuex (Vue state management library), and vuex-persist to leverage localStorage to persist this data
