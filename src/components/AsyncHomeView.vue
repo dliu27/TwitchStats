@@ -9,7 +9,7 @@
         type="text"
         v-model="searchQuery"
         @input="getSearchResults"
-        placeholder="Search for a creator on Twitch"
+        placeholder="Search for a creator on Twitch, for example: 'tarik'"
         :class="{ 'rounded-b-none': searchResults }"
         class="py-4 px-4 w-full h-14 rounded-lg bg-search-color text-white focus:bg-search-focus-color focus:shadow-md transition-colors duration-200"
         @focus="isFocused = true"
