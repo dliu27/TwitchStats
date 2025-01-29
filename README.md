@@ -1,6 +1,6 @@
-# Twitch Analytics SPA ![favicon-32x32](https://user-images.githubusercontent.com/48995019/235028996-1f739050-b8a9-4618-ad5d-4f3ed03ba6dc.png)
+# Twitch Stats ![favicon-32x32](https://user-images.githubusercontent.com/48995019/235028996-1f739050-b8a9-4618-ad5d-4f3ed03ba6dc.png)
 
-## Demo: [Netlify](https://twich-analytics-spa.netlify.app/) (Try 'tarik'. Open console to see fetched/cached data usage. Delete 'vuex' localStorage key to delete cache.)
+## Demo: [Netlify](https://twitch-stats.netlify.app/) (Try 'tarik'. Open console to see fetched/cached data usage. Delete 'vuex' localStorage key to delete cache.)
 
 Minimalistic SPA project written in Vue 3 + TailwindCSS using the Twitch API. I finished this project in a week without any experience in Vue 3 or TailwindCSS. 
 
